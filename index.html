@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="galane-files/img/brand.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Galane Group</title>
+</head>
+<body>
+    <!-- Navigation Large-->
+    <nav class="navbar navbar-expand-lg bg-dark  mobile-down">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"> <img src="galane-files/img/brand.png" alt="" class="nav-brand"> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link my-nav-link" aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link my-nav-link" href="service.html">SERVICE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link my-nav-link" href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link my-nav-link" href="contact.html">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link my-nav-link" href="partners.html">PARTNERS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- Navigation Mobile-->
+    <nav class="navbar navbar-dark bg-dark laptop-down">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="galane-files/img/brand.png" alt="" class="nav-brand"></a>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <a class="navbar-brand" href="index.html"> <img src="galane-files/img/brand.png" alt="" class="nav-brand"> </a>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>                
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="service.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Service
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="landscaping.html"><i class="fa-solid fa-hand-point-right point-icon"></i> Landscaping</a></li>
+                  <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="materials.html"><i class="fa-solid fa-hand-point-right point-icon"></i> Cleaning Materials</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="equipment.html"> <i class="fa-solid fa-hand-point-right point-icon"></i> Cleaning Equipment</a></li>
+
+                </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="partners.html">Partners</a>
+              </li>
+              <li class="nav-item social-box">
+                <a href="https://www.facebook.com/profile.php?id=61572233642271"><i class="fa-brands fa-facebook social-icons--nav nav-social-icon"></i></a>
+                <a href="https://www.instagram.com/galanegroup/"><i class="fa-brands fa-instagram social-icons--nav nav-social-icon"></i></a>
+                <a href="https://x.com/GalaneGroup"><i class="fa-brands fa-twitter social-icons--nav nav-social-icon"></i></a>
+                <a href="https://www.tiktok.com/@galane_group?lang=en"><i class="fa-brands fa-tiktok social-icons--nav nav-social-icon"></i></a>
+              </li>
+              <li class="nav-item text-center">
+                <a href="" class="nav-link"><small class="">Copyright © <span class="footer-headings">GALANE GROUP PTY LTD</span>  2024</small></a> 
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </nav>
+
+    <!-- Header Section Large-->
+    <header class="vid-hero vid-header__mobile mobile-down">
+        <video src="galane-files/vid/index-vid.mp4" autoplay muted loop ></video>
+            <div class="vid-hero">
+                <div class="container container-body container-body-header">
+                    <div class="row gx-5 align-items-center justify-content-center">                        
+                        <div class="col-lg-8 text-center">
+                              <img class="mb-4 img-header-brand" src="galane-files/img/brand-landscape.png" alt="..." />
+                              
+                              <p class="lead fw-normal text-center my-paragraph my-paragraph-header">Galane Group is your trusted partner for landscaping and cleaning solutions. <br> Whether enhancing a garden or maintaining a commercial space, we help create beautiful, functional environments.
+                              </p>
+                              
+                              <a class="btn my-btn my-btn-secondary btn-md px-4 me-sm-3" href="#features">Get Started</a>
+                              <a class="btn btn-outline-primary btn-md px-4" href="about.html">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <!-- Header Section Mobile -->
+    <header class="vid-hero vid-header-mobile laptop-down">
+            <div class="vid-hero">
+                <div class="container container-body container-body-header container-body-header-mobile">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                      <div class="col-lg-8 text-center">
+                        <img class="mb-4 img-header-brand img-header-brand-mobile" src="galane-files/img/brand-landscape.png" alt="..." />
+                        
+                        <p class="lead fw-normal text-center my-paragraph my-paragraph-header">Galane Group is your trusted partner for landscaping and cleaning solutions. <br> <span class="phone-down">Whether enhancing a garden or maintaining a commercial space, we help create beautiful, functional environments.</span> 
+                        </p>
+                        
+                        <a class="btn my-btn btn-md px-4 me-sm-3 my-btn-secondary" href="#features">Get Started</a>
+                        <a class="btn btn-outline-primary btn-md px-4" href="about.html">Learn More</a>
+                  </div>
+                        </div>
+                    </div>
+                </div>
+    </header>
+
+    <!--About Section -->
+    <div class="container-fluid container-fluid-service container-fluid-secondary-index" id="features">
+      <div class="container container-body-service container-body-no-bg">
+            <div class="row">
+              <div class="col-12 d-md-block d-lg-none container-body-img-col laptop-down">
+                  <div class="container-body-img-warp mt-5">
+
+                  </div>   
+              </div>  
+
+
+                <div class="col-xxl-6 col-xl-6 col-lg-7 placeholder-col">
+                  <div class="body-content">
+                    <!--
+                    <img src="galane-files/img/1.jpg" alt="" class="features-img-large mobile-down">-->
+                    <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade mobile-down" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="5000">
+                          <img src="galane-files/img/46.jpg" class="d-block w-100 features-img-large" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="galane-files/img/47.jpg" class="d-block w-100 features-img-large" alt="..." data-bs-interval="5000">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="galane-files/img/48.jpg" class="d-block w-100 features-img-large" alt="..." data-bs-interval="5000">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-5">
+                    <div class="container-body-text-warp">
+                        <h1 class="display-5 fw-bolder  mb-4"> Company Overview </h1>
+                        <p class="lead fw-normal text-muted mb-4 my-paragraph container-body-paragraph ">
+                          <i class="fa-solid fa-hand-point-right point-icon"></i>                   <span class="brand-name">Galane Group (Pty) Ltd</span>  is a leading provider of integrated solutions in landscaping, cleaning materials and cleaning equipment. Established in 2020, our company is committed to delivering high-quality products and services that enhance the aesthetics, functionality, and cleanliness of residential, commercial and industrial environments.
+                        </p>
+                        <p class="lead fw-normal text-muted mb-4 container-body-paragraph d-md-block  my-paragraph">                    
+                          <i class="fa-solid fa-hand-point-right point-icon"></i> With a strong focus on sustainability and innovation, <span class="brand-name">Galane Group (Pty) Ltd </span> strives to create healthier and more beautiful spaces for our clients. We are dedicated to providing exceptional service and products that meet the highest standards of quality, efficiency, and environmental responsibility.
+                        </p>
+
+                        <a class="btn my-btn btn-lg px-4 me-sm-3" href="#service-section"> Read More </a>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <!--Service Section -->
+    <div class="container-fluid container-fluid-index-about laptop-small-pb-9" id="service-section">
+      <div class="container container-body container-body-about">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12">
+            <div class="heading-warp text-center">
+              <h1 class="display-5 fw-bolder mb-4 "> EXPLORE OUR SERVICES</h1>
+
+            </div>
+          </div>
+
+          <div class="col-md-8">
+            <div class="card my-card my-card-index mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4 my-card-img-warp my-card-img-warp-1">
+                  <img src="galane-files/img/7.jpg" class="img-fluid rounded-start d-md-none d-sm-block" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <a href="landscaping.html" class="my-card-link">
+                    <div class="card-body card-body-index">
+                      <h5 class="card-title footer-headings">LANDSCAPING</h5>
+                      <p class="card-text my-paragraph text-muted">Discover tailored landscape designs and professional installation services, alongside regular maintenance and expert consultations for sustainable improvements to enhance your outdoor space.
+                      </p>
+                      <a href="landscaping.html" class="btn my-btn card-index-btn mt-4" role="button"> Discover</a>
+                    </div>                    
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-8">
+            <div class="card my-card my-card-index mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4 my-card-img-warp my-card-img-warp-2">
+                  <img src="galane-files/img/56.jpg" class="img-fluid rounded-start d-md-none d-sm-block" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <a href="materials.html" class="my-card-link">
+                    <div class="card-body card-body-index text-muted">
+                      <h5 class="card-title footer-headings">CLEANING MATERIALS</h5>
+                      <p class="card-text text-muted">Explore our eco-friendly, biodegradable cleaners for all surfaces, specialized solutions for industrial and residential needs, and effective disinfectants to maintain hygiene and safety.
+                      </p>
+                      <a href="materials.html" class="btn my-btn card-index-btn mt-4" role="button"> Discover</a>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-8">
+            <div class="card my-card my-card-index mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4 my-card-img-warp my-card-img-warp-3">
+                  <img src="galane-files/img/13.jpg" class="img-fluid rounded-start d-md-none d-sm-block" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <a href="equipment.html" class="my-card-link">
+                    <div class="card-body card-body-index text-muted">
+                      <h5 class="card-title footer-headings">CLEANING EQUIPMENT</h5>
+                      <p class="card-text text-muted">Find the perfect vacuum cleaners, from portable to industrial models, along with floor care machines, high-performance pressure washers, and a wide selection of accessories and replacement parts.
+                      </p>
+                      <a href="equipment.html" class="btn my-btn card-index-btn mt-4" role="button"> Discover</a>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-8 text-center mb-4">
+            <a class="btn my-btn my-btn-secondary btn-lg px-4 me-sm-3 mb-4 mt-4 features-btn-index" href="service.html"> Explore </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--Why us? Section -->
+    <div class="container-fluid container-fluid-service container-fluid-secondary-index" id="features mt-5 ">
+      <div class="container container-body-service container-body-no-bg">
+            <div class="row">
+              <div class="col-12 d-md-block d-lg-none container-body-img-col laptop-down">
+                  <div class="container-body-img-warp--2 mt-5">
+
+                  </div>   
+              </div>  
+
+
+                <div class="col-xxl-6 col-xl-6 col-lg-7 placeholder-col">
+                  <div class="body-content">
+                    <!--
+                    <img src="galane-files/img/1.jpg" alt="" class="features-img-large mobile-down">-->
+                    <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade mobile-down" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="5000">
+                          <img src="galane-files/img/2.png" class="d-block w-100 features-img-large" alt="...">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-5">
+                    <div class="container-body-text-warp">
+                        <h1 class="display-5 fw-bolder main-heading mb-2"> Why choose Galane Group (Pty) Ltd?</h1>
+                        <p class="lead fw-normal text-muted mb-4 my-paragraph container-body-paragraph ">
+                          <i class="fa-solid fa-hand-point-right point-icon"></i>                 Our expert team of experienced professionals brings a wealth of knowledge and expertise to every project, ensuring exceptional results. We meticulously source only the best materials and equipment, guaranteeing durability and performance that stand the test of time.
+                        </p>
+                        <p class="lead fw-normal text-muted mb-4 container-body-paragraph d-md-block  my-paragraph">                    
+                          <i class="fa-solid fa-hand-point-right point-icon"></i> Committed to sustainable practices, we strive to minimize our environmental impact while providing comprehensive support throughout the entire project lifecycle, enhancing both efficiency and client satisfaction.
+                        </p>
+
+                        <a class="btn my-btn btn-lg px-4 me-sm-3" href="#commitment-section"> Learn More </a>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <!--Commitment Section-->
+    <div class="container-fluid container-fluid-industries container-fluid-features mb-4" id="commitment-section">
+      <div class="col-12">
+        <div class="heading-warp text-center">
+          <h1 class="display-5 fw-bolder mb-4 main-heading"> Our Commitment</h1>
+        </div>
+      </div>
+      <div class="container container-body container-body-commitment container-body-no-bg">
+        <div class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 mb-5 justify-content-center">
+          <div class="col mb-5 mb-5 mb-xl-0">
+              <div class="text-center">
+                  <img class="img-fluid rounded-circle mb-2 px-4" src="galane-files/img/37.jpg" alt="..." />
+                  <hr class="divider divider-small divider-green">
+                  <h6 class="fw-bolder quantenary-heading">Empathy in Business</h6>
+                  <div class=" text-muted">
+                    <div class="my-paragraph text-center text-muted">
+                      To conduct business in a respective and caring way towards all people.
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col mb-5 mb-5 mb-xl-0">
+              <div class="text-center">
+                  <img class="img-fluid rounded-circle mb-2 px-4" src="galane-files/img/38.jpg" alt="..." />
+                  <hr class="divider divider-small divider-green">
+                  <h6 class="fw-bolder quantenary-heading">Commitment to Compliance</h6>
+                  <div class="my-paragraph text-center text-muted">
+                    To comply with all applicable legal and agreed requirements.
+                  </div>
+              </div>
+          </div>
+          <div class="col mb-5 mb-5 mb-sm-0">
+              <div class="text-center">
+                  <img class="img-fluid rounded-circle mb-2 px-4" src="galane-files/img/39.jpg" alt="..." />
+                  <hr class="divider divider-small divider-green">
+                  <h6 class="fw-bolder quantenary-heading">Collaborative Safety</h6>
+                  <div class="my-paragraph text-center text-muted">
+                    To Promote client cooperation for health and safety everywhere.
+                  </div>
+              </div>
+          </div>
+          <div class="col mb-5">
+              <div class="text-center">
+                  <img class="img-fluid rounded-circle mb-2 px-4" src="galane-files/img/40.jpg" alt="..." />
+                  <hr class="divider divider-small divider-green">
+                  <h6 class="fw-bolder quantenary-heading">Vision for a Safe Future</h6>
+                  <div class="my-paragraph text-center text-muted">
+                    To actively share the vision of a safe, healthy workplace.
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+    </div>
+
+
+    <!-- Contact Section -->
+    <div class="container-fluid container-fluid-secondary-index">
+      <div class="container container-body container-body-no-bg">
+        <div class="row">
+          <div class="col-12">
+            <div class="heading-warp text-center">
+              <h1 class="display-5 fw-bolder mb-2 my-h1"> Get in Touch </h1>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-3">
+            <div class="text-center">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3586.085929751644!2d28.014401975461617!3d-25.99800237720411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9576d2a0e4c763%3A0xfd42dc87794d412b!2s139%20Soho%20Ln%2C%20Beverley%20AH%2C%20Sandton!5e0!3m2!1sen!2sza!4v1729507839866!5m2!1sen!2sza" width="420" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map-frame mb-4"></iframe>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class=" card-headiing-industries">Send us a message. <img src="galane-files/img/contact-gift.gif" class="contact-gift" alt=""> </h3>
+            <form id="form">
+              <div class="mb-3">
+                  <label for="from_name" class="form-label">Name</label>
+                  <input type="text" class="form-control" name="from_name" id="from_name" placeholder="Enter your name" required>
+              </div>
+              
+              <div class="mb-3">
+                  <label for="email" class="form-label">Email address</label>
+                  <input type="email" class="form-control" name="email_id" id="email_id" placeholder="Enter your email" required>
+              </div>
+
+              <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" name="message" id="message" rows="4" placeholder="Write your message here" required></textarea>
+              </div>                         
+              <input type="submit" id="button" value="Send Email" class="btn my-btn">
+
+          </form>
+          <div id="responseMessage" class="mt-3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--Footer-->
+    <footer class="footer bg-dark ">
+      <div class="container">
+        <div class="row">
+          <!-- Column 1 -->
+          <div class="col-md-4 text-center mt-lg-4">
+              <img src="galane-files/img/brand.png" alt="" class="footer-logo">
+          </div>
+          <!-- Column 2 -->
+          <div class="col-md-4 mt-lg-4 footer-content--box">
+            <h5 class="footer-headings">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html" class=" my-footer-link active-link-footer"><i class="fa-solid fa-circle inactive-circle"></i> Home</a></li>
+              <li><a href="service.html" class="my-footer-link"><i class="fa-solid fa-circle inactive-circle"></i> Service</a></li>
+              <li><a href="about.html" class="my-footer-link"><i class="fa-solid fa-circle inactive-circle"></i> About</a></li>
+              <li><a href="contact.html" class="my-footer-link"><i class="fa-solid fa-circle inactive-circle"></i> Contact</a></li>
+              <li><a href="partners.html" class="my-footer-link "><i class="fa-solid fa-circle active-circle"></i>  Partners</a></li>
+              <li><a href="landscaping.html" class="my-footer-link"><i class="fa-solid fa-circle inactive-circle"></i>  Landscaping</a></li>
+              <li><a href="materials.html" class="my-footer-link"><i class="fa-solid fa-circle inactive-circle"></i>  Cleaning Materials </a></li>
+              <li><a href="equipment.html" class="my-footer-link"><i class="fa-solid fa-circle inactive-circle"></i>  Cleaning Equipment </a></li>
+            </ul>
+          </div>
+          <!-- Column 3 -->
+          <div class="col-md-4 mt-lg-4 footer-content--box">
+            <h5 class="footer-headings">Contact Us</h5>
+            <p class="text-white">
+              <strong> <i class="fa-solid fa-location-dot active-link-footer"></i> <span class="my-footer-link-heading"> Location </span> </strong><br>
+              <a href="https://www.google.co.za/maps/place/121+Matt+St,+Pretoriuspark,+Pretoria,+0042/@-25.8281943,28.3191467,17z/data=!3m1!4b1!4m6!3m5!1s0x1e955d660604b0cb:0x60b170731f94fe7d!8m2!3d-25.8281943!4d28.3217216!16s%2Fg%2F11rww9mv6w?hl=en&entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D" class="lcoation my-footer-link">
+                14 Lanatus Street, Mooikloof Gardens, 121 Matt Street Pretorius Park, Pretoria, 0042 
+              </a>
+              <br>
+              <a href="https://www.google.co.za/maps/search/87+Boomaalwyn+Street,+The+Aloes+Lifestyle+Estate,Bendor,+0699/@-23.8690344,29.4947043,17z/data=!3m1!4b1?hl=en&entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D" class=" lcoation my-footer-link ">87 Boomaalwyn Street, 
+                The Aloes Lifestyle Estate, Bendor, 0699</a> 
+            </p>
+            <p class="text-white">
+              <strong><i class="fa-solid fa-envelope active-link-footer"></i> <span class="my-footer-link-heading"> Email </span> </strong><br>
+              <a href="mailto:info@example.com" class="my-footer-link">info@galanegroup.co.za</a>
+            </p>
+            <p class="text-white">
+              <strong> <i class="fa-solid fa-phone active-link-footer"></i> <span class="my-footer-link-heading"> Phone </span> </strong><br>
+               <span class="my-footer-link"> +27 (72) 312 - 6104</span>
+               <br>
+               <span class="my-footer-link"> +27 (78) 753 - 3564</span>
+            </p>
+            <p class="text-white">
+              <a href="https://www.facebook.com/profile.php?id=61572233642271"><i class="fa-brands fa-facebook social-icons--nav footer-icons--nav my-footer-link "></i></a>
+              <a href="https://www.instagram.com/galanegroup/"><i class="fa-brands fa-instagram social-icons--nav footer-icons--nav my-footer-link"></i></a>
+              <a href="https://x.com/GalaneGroup"><i class="fa-brands fa-twitter social-icons--nav footer-icons--nav footer-icons--nav__dark my-footer-link"></i></a>
+              <a href="https://www.tiktok.com/@galane_group?lang=en"><i class="fa-brands fa-tiktok social-icons--nav footer-icons--nav footer-icons--nav__dark my-footer-link"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!--Javascript Links-->
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a1500e6705.js" crossorigin="anonymous"></script>
+
+    <!-- Default Javascript -->
+    <script src="javascript/script.js"></script>
+
+    <!-- Bootstrap js & popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <!-- EmailJS CDN content -->
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  
+    <script type="text/javascript">
+    emailjs.init('opTlIyV5xv3MmVGwe')
+    </script>
+</body>
+
+</html>
